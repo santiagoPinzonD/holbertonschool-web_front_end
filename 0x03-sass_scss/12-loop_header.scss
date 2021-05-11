@@ -1,0 +1,7 @@
+/* loop file */
+
+@for $i from 1 through 6 {
+    h#{$i} {
+        font-size: #{$i}px;
+    }
+}
