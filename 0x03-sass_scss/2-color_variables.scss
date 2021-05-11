@@ -1,0 +1,19 @@
+/* color var */
+
+$textcolor: #3D3D3D;
+$bagcolor: #6D6D6D;
+
+body {
+    color: $textcolor;
+    background-color: $bagcolor;
+}
+
+p {
+    color: $textcolor;
+}
+
+h2 {
+    background-color: $bagcolor;
+}
+
+
