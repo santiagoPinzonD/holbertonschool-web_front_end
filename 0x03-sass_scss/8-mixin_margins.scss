@@ -1,0 +1,14 @@
+/* mixin margin */
+
+@mixin assignvalues($pixels) {
+    margin-left: $pixels;
+    margin-right: $pixels;
+}
+
+body {
+    @include assignvalues(10px)
+}   
+  
+div {
+    @include assignvalues(15px)
+}
